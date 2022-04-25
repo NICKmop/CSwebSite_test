@@ -580,3 +580,38 @@ Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving temp
 2022-04-25 11:08:21.238 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor (268) Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
 2022-04-25 11:08:21.242 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor (119) Writing [{timestamp=Mon Apr 25 11:08:20 KST 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
 2022-04-25 11:08:21.459 DEBUG o.s.web.servlet.DispatcherServlet     (1127) Exiting from "ERROR" dispatch, status 404
+2022-04-25 11:18:56.763 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor (255) Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-25 11:18:56.766 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor (255) For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-25 11:18:58.419 INFO  o.s.d.r.c.RepositoryConfigurationDelegate (132) Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-04-25 11:18:58.459 INFO  o.s.d.r.c.RepositoryConfigurationDelegate (201) Finished Spring Data repository scanning in 25 ms. Found 0 JDBC repository interfaces.
+2022-04-25 11:19:02.985 INFO  o.s.b.w.e.tomcat.TomcatWebServer      (108) Tomcat initialized with port(s): 8080 (http)
+2022-04-25 11:19:03.197 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext (290) Root WebApplicationContext: initialization completed in 6429 ms
+2022-04-25 11:19:03.947 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter (625) ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-25 11:19:04.336 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping (367) 3 mappings in 'requestMappingHandlerMapping'
+2022-04-25 11:19:04.503 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping     (188) Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-25 11:19:04.714 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver (307) ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-25 11:19:06.271 INFO  o.s.b.d.a.OptionalLiveReloadServer    (58) LiveReload server is running on port 35729
+2022-04-25 11:19:06.413 INFO  o.s.b.w.e.tomcat.TomcatWebServer      (220) Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-25 11:43:18.563 INFO  o.s.web.servlet.DispatcherServlet     (525) Initializing Servlet 'dispatcherServlet'
+2022-04-25 11:43:18.649 DEBUG o.s.web.servlet.DispatcherServlet     (520) Detected StandardServletMultipartResolver
+2022-04-25 11:43:18.660 DEBUG o.s.web.servlet.DispatcherServlet     (544) Detected AcceptHeaderLocaleResolver
+2022-04-25 11:43:18.671 DEBUG o.s.web.servlet.DispatcherServlet     (569) Detected FixedThemeResolver
+2022-04-25 11:43:18.832 DEBUG o.s.web.servlet.DispatcherServlet     (719) Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7be71cb1
+2022-04-25 11:43:18.838 DEBUG o.s.web.servlet.DispatcherServlet     (783) Detected org.springframework.web.servlet.support.SessionFlashMapManager@2f1a9490
+2022-04-25 11:43:18.842 DEBUG o.s.web.servlet.DispatcherServlet     (542) enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-25 11:43:18.849 INFO  o.s.web.servlet.DispatcherServlet     (547) Completed initialization in 233 ms
+2022-04-25 11:43:19.038 DEBUG o.s.web.servlet.DispatcherServlet     (119) GET "/", parameters={}
+2022-04-25 11:43:19.110 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping (522) Mapped to com.csweb.com.csweb.main.controller.mainController#home()
+2022-04-25 11:43:19.383 DEBUG o.s.w.s.v.ContentNegotiatingViewResolver (349) Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-04-25 11:43:20.280 DEBUG o.s.web.servlet.DispatcherServlet     (1131) Completed 200 OK
+2022-04-25 11:44:15.055 INFO  o.s.d.r.c.RepositoryConfigurationDelegate (132) Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-04-25 11:44:15.195 INFO  o.s.d.r.c.RepositoryConfigurationDelegate (201) Finished Spring Data repository scanning in 123 ms. Found 0 JDBC repository interfaces.
+2022-04-25 11:44:16.972 INFO  o.s.b.w.e.tomcat.TomcatWebServer      (108) Tomcat initialized with port(s): 8080 (http)
+2022-04-25 11:44:17.000 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext (290) Root WebApplicationContext: initialization completed in 5195 ms
+2022-04-25 11:44:18.661 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter (625) ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-25 11:44:18.903 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping (367) 3 mappings in 'requestMappingHandlerMapping'
+2022-04-25 11:44:19.352 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping     (188) Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-25 11:44:19.381 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver (307) ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-25 11:44:21.345 INFO  o.s.b.d.a.OptionalLiveReloadServer    (58) LiveReload server is running on port 35729
+2022-04-25 11:44:21.598 INFO  o.s.b.w.e.tomcat.TomcatWebServer      (220) Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-25 11:44:21.698 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener (63) Condition evaluation unchanged
